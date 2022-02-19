@@ -71,9 +71,13 @@ h1,h2,h3,p{
     width:50%;
     padding:10px
 }
-.deleteBtn{
+.deleteBtn,.editBtn{
 
     float: right;
     background-color: transparent;
     border : none;
+}
+.editBtn,.inputEdit{
+    margin-right: 10px;
+    color : green;
 }
